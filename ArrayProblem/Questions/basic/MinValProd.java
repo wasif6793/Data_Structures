@@ -1,4 +1,4 @@
-package Arrays;
+package ArrayProblem.Questions.basic;
 /*
 Given an array, update all elements of the given array to some minimum value x,
 such that the product of all elements of this new array is strictly greater than the product

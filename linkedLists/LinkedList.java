@@ -74,6 +74,19 @@ public class LinkedList {
         list.print();
         System.out.println(list.head.value);
 
+        //find mid node
+        System.out.println();
+        System.out.println("Mid Node:");
+        LinkedList myList = new LinkedList(1);
+        myList.append(2);
+        myList.append(3);
+        myList.append(4);
+        myList.append(5);
+        Node middleNode = myList.findMiddleNode();
+        System.out.println(middleNode.value);
+        myList.print();
+
+
 
 
     }
@@ -149,6 +162,7 @@ public class LinkedList {
         return false;
     }
 
+    // insert the value in the node between the nodes
     public boolean insert(int index, int value) {
 
         if(index < 0 || index > length) return false;
@@ -170,6 +184,7 @@ public class LinkedList {
 
     }
 
+    // removing indexed element from node
     public Node remove(int index){
         if(index < 0 || index >= length) return null;
         if(index == 0) return removeFirst();
@@ -201,6 +216,21 @@ public class LinkedList {
         }
 
     }
+
+    public Node findMiddleNode() {
+
+        Node slow  = head;
+        Node fast = head;
+
+        while(fast != null && fast.next != null){
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+
+        return slow;
+
+    }
+
 
 
     public void print() {
@@ -234,6 +264,7 @@ public class LinkedList {
         tail = newNode;
         length = 1;
     }
+
 
 }
 
