@@ -6,6 +6,7 @@ import java.util.HashSet;
 public class Permutation {
     public static void main(String[] args) {
 
+        //string
         String st = "aab";
 
         HashSet<String> hs = new HashSet<>();
