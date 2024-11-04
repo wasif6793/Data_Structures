@@ -1,7 +1,7 @@
 package pointers;
 
 import java.util.HashMap;
-
+//pointers
 public class Hashmaps {
     public static void main(String[] args) {
         HashMap<String, Integer> hm = new HashMap<>();
