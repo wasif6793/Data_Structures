@@ -265,15 +265,17 @@ public class LinkedList {
         length = 1;
     }
 
+    private static class Node{
+        int value;
+        Node next;
+        public Node(int value) {
+            this.value = value;
+        }
 
-}
 
-class Node{
-    int value;
-    Node next;
-    public Node(int value) {
-        this.value = value;
     }
 
 
+
 }
+
