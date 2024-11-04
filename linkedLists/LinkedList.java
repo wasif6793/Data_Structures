@@ -1,5 +1,5 @@
 package linkedLists;
-
+// operation in nodes
 public class LinkedList {
     private Node head;
     private Node tail;
@@ -200,7 +200,7 @@ public class LinkedList {
     }
 
 
-    //reverse the linkedlist
+    //reverse the linkedlist.
     public void reverse(){
         Node temp = head;
         head = tail;
