@@ -152,6 +152,7 @@ public class MyLinkedList {
         }
         System.out.println();
     }
+    //value
 
 
 
