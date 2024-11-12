@@ -1,4 +1,8 @@
 package ArrayProblem.Questions.intermediate;
+
+import java.util.ArrayList;
+import java.util.List;
+
 /*
 Find the duplicate number in an array of
 n+1 integers where each integer is
@@ -14,6 +18,7 @@ public class FindDupElementInArray {
 
         System.out.println(finddup(ar));
     }
+
 
     private static int finddup(int[] ar) {
         int dup = 0;
