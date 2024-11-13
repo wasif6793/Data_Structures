@@ -25,6 +25,7 @@ public class Fib_With_Memo {
 
     }
 
+    // Using Bottom up approach
     public static int fibBottomup(int n){
         int[] fibList = new int[n+1];
         fibList[0] = 0;
