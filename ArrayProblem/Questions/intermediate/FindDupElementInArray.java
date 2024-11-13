@@ -19,7 +19,7 @@ public class FindDupElementInArray {
         System.out.println(finddup(ar));
     }
 
-
+    // Method to find duplicate elements
     private static int finddup(int[] ar) {
         int dup = 0;
 
