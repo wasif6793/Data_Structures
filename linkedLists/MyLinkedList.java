@@ -6,6 +6,13 @@ public class MyLinkedList {
     private Node tail;
     private int size;
 
+    public MyLinkedList(int value) {
+        Node newNode = new Node(value);
+        head = newNode;
+        tail = newNode;
+        size = 1;
+    }
+
     public static void main(String[] args) {
 
         Node head = new Node(1);
